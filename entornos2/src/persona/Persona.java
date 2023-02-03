@@ -15,4 +15,7 @@ public class Persona {
     this.edad += 1;
     System.out.println(this.edad);
 }
+  public void datosPersona() {
+    System.out.println(this.nombre + ", " + this.apellidos + ", " + this.edad);
+}
 }
